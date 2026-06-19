@@ -2,7 +2,6 @@ pipeline {
     agent any
     stages {
         stage ('PULL STAGE') {
-        }
             steps {
                 echo 'Pull Success'
             }
