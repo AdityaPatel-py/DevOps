@@ -3,6 +3,10 @@ pipeline {
     stages {
         stage ('PULL STAGE') {
         }
+            steps {
+                echo 'Pull Success'
+            }
+        }
         stage ('BUILD STAGE') {
             steps {
                 echo 'Build Success'
