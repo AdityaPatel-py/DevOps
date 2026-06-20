@@ -12,5 +12,5 @@ services:
   environment:
     DB_HOST: mydb.cx0wucoeqd4u.ap-south-1.rds.amazonaws.com
     DB_USER: admin
-    DB_PASSWORD: yourpassword
+    DB_PASSWORD: mypassword
     DB_NAME: mydb
