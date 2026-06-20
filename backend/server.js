@@ -5,7 +5,7 @@ const port = 5000;
 
 // Replace with your RDS endpoint and credentials
 const db = mysql.createConnection({
-  host: 'mydb-instance.xxxxxx.us-east-1.rds.amazonaws.com', // RDS endpoint
+  host: 'mydb.cx0wucoeqd4u.ap-south-1.rds.amazonaws.com', // RDS endpoint
   user: 'admin',       // RDS master username
   password: 'mypassword', // RDS master password
   database: 'mydb'     // Database name created in RDS
