@@ -6,11 +6,11 @@ services:
       - "80:80"
 
   backend:
-  build: ./backend
-  ports:
-    - "5000:5000"
-  environment:
-    DB_HOST: mydb.cx0wucoeqd4u.ap-south-1.rds.amazonaws.com
-    DB_USER: admin
-    DB_PASSWORD: mypassword
-    DB_NAME: mydb
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: mydb.cx0wucoeqd4u.ap-south-1.rds.amazonaws.com
+      DB_USER: admin
+      DB_PASSWORD: mypassword
+      DB_NAME: mydb
